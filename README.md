@@ -13,3 +13,9 @@ Click Create repository from template and we’re ready to build our first Actio
 
 
 If you have arrived here from the [Intermediate automation strategies with GitHub Actions](https://resources.github.com/learn/pathways/automation/intermediate/workflow-automation-with-github-actions/) module without following the first module, copy the contents of the `/demo-files` folder into the `.github/workflows` folder to follow along.
+
+An Actions workflow is a configurable automated process made up of one or more jobs defined using YAML. Workflows follow a specific structure and are stored in the .github/workflows directory of your repository. There are two ways to create a new workflow—either by creating a new YAML file in the .github/workflows directory, or from the Actions tab of your repository. The first way is simple and straightforward, but the second has some advantages, so let’s do that for now:
+
+Navigate to the “Actions” tab of your repository and click New workflow.
+
+Take a look around and you’ll see that GitHub has suggested a variety of starter workflows based on the languages of the code in your repository. Since the actions-learning-pathway repository has JavaScript and Node.js files, suggestions are primarily for those languages. 
